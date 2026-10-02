@@ -4,7 +4,7 @@ import { ref } from 'vue';
 const navItems = [
   { label: 'Inicio', href: '/' },
   { label: 'Canciones', href: '#' },
-  { label: 'Vídeo', href: '#' },
+  { label: 'Vídeos', href: '#' },
   { label: 'Nosotros', href: '#' },
   { label: 'Contacto', href: '#' },
 ];

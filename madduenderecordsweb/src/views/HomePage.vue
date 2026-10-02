@@ -1,16 +1,16 @@
 <script setup lang="ts">
- document.title = 'Portada | Mad Duende Records';
+import HeroComponent from '../components/HeroComponent.vue';
+import MainHeader from "../components/MainHeader.vue";
+
+
+document.title = 'Portada | Mad Duende Records';
 </script>
 
 <template>
-  <div id="home_page" class="page">
-    <div id="home_page_header_container" class="grid">
-      <div class="cell">
-
-      </div>
-    </div>
-
-  </div>
+  <main id="home_page" class="page">
+    <MainHeader />
+    <HeroComponent />
+  </main>
 </template>
 
 <style scoped>
